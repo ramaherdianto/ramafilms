@@ -6,7 +6,7 @@ import "./style/Page.css";
 function App() {
   return (
     <div>
-      <div className="myBg border">
+      <div className="myBg">
         <NavigationBar />
         <Intro />
       </div>
