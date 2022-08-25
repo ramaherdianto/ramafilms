@@ -39,7 +39,7 @@
 }
 
 .section-Superhero {
-  height: 100vh;
+  height: auto;
   padding: 50px 0;
   color: white;
   background: linear-gradient(90deg, rgba(22, 24, 27, 0.6) 100%, rgba(22, 24, 27, 0.7) 100%), url("../assets/images/bg/scifi.jpg");
@@ -48,4 +48,24 @@
   position: relative;
   display: flex;
   justify-content: center;
+
+  div {
+    .container {
+      h1 {
+        font-size: 50px;
+      }
+      .row {
+        row-gap: 50px;
+        .movieWrapper {
+          .movieImage {
+            padding: 5px;
+
+            .images {
+              height: 400px;
+            }
+          }
+        }
+      }
+    }
+  }
 }
