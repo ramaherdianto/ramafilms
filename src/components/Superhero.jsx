@@ -1,4 +1,5 @@
-import { Container, Card, Col, Row, Image } from "react-bootstrap";
+
+import { Container, Row, Col, Card, Image } from "react-bootstrap";
 import antmanImage from "../assets/images/superhero/antman.jpg";
 import avengerImage from "../assets/images/superhero/avenger.jpg";
 import batmanImage from "../assets/images/superhero/batman.jpg";
@@ -39,6 +40,7 @@ const Superhero = () => {
       description: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iusto asperiores doloribus, dolores a vitae laborum?",
     },
   ];
+
 
   return (
     <div>
